@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificações Personalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Enviar Notificação Personalizada</h1>
+    <div>
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" placeholder="Digite o título da notificação">
+    </div>
+    <div>
+        <label for="texto">Texto:</label>
+        <input type="text" id="texto" placeholder="Digite o texto da notificação">
+    </div>
+    <div>
+        <label for="imagem">URL da Imagem:</label>
+        <input type="text" id="imagem" placeholder="Digite a URL da imagem">
+    </div>
+    <div>
+        <label for="intervalo">Intervalo (segundos):</label>
+        <input type="number" id="intervalo" placeholder="Digite o intervalo em segundos">
+    </div>
+    <button onclick="enviarNotificacao()">Enviar Notificação</button>
+    <button onclick="enviarNotificacoesPeriodicas()">Enviar Notificações Periodicamente</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
